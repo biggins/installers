@@ -4,7 +4,7 @@ namespace Composer\Installers;
 class CakePHPInstaller extends BaseInstaller
 {
     protected $locations = array(
-        'plugin' => 'Plugin/{$name}/',
+        'plugin' => '../plugins/{$name}/',
     );
 
     /**
